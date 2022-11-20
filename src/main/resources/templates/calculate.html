@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+  <style>
+   .text {
+    text-align:  center;
+   }
+  </style>
+</head>
+<body>
+<H1 class="text">Калькулятор онлайн</H1>
+<form action="/main/" class="text">
+  <input name="fNum" type="number" placeholder="Первое число">
+  <select name="operation">
+    <option value="+">Сложение</option>
+    <option value="-">Вычитание</option>
+    <option value="*">Умножение</option>
+    <option value="/">Деление</option>
+  </select>
+  <input name="sNum" type="number" placeholder="Второе число">
+  <input type="submit" formmethod="get" value="get">
+  <input type="submit" formmethod="post" value="post">
+</form>
+</body>
+</html>
